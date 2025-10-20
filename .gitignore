@@ -1,0 +1,100 @@
+# Compiled Object files
+*.o
+*.obj
+*.ko
+*.elf
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Compiled Static libraries
+*.a
+*.lib
+*.la
+*.lo
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+wlp4
+scan
+parse
+type
+gen
+asm
+
+# Build directories
+obj/
+build/
+bin/
+dist/
+Debug/
+Release/
+x64/
+x86/
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+
+# Makefiles (generated)
+Makefile.in
+*.depend
+
+# Core dumps
+core
+core.*
+
+# Testing
+*.test
+*.coverage
+*.gcov
+*.gcda
+*.gcno
+
+# Output files
+*.mips
+output.*
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# Package manager
+conan.lock
+vcpkg_installed/
+
