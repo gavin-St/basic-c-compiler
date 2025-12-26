@@ -4,8 +4,6 @@ A compiler for WLP4 (subset of C) that generates MIPS assembly code.
 
 ## Architecture
 
-The compiler is organized into modular components with clean interfaces:
-
 ```
 WLP4 Source Code
       ↓
@@ -57,22 +55,3 @@ int wain(int a, int b) {
     return a + b;
 }
 ```
-
-## Development
-
-Each module exports clean functions:
-- `scanTokens(string)` → vector<Token>
-- `buildParseTree(tokens)` → ParseNode*
-- `typeCheck(parseTree)` → string
-- `generateCode(typedTree)` → string  
-- `assemble(assembly)` → string
-
-This modular design makes it easy to test individual stages and extend the compiler.
-
-## Clean Up
-
-```bash
-make clean
-```
-
-Removes all build artifacts.
